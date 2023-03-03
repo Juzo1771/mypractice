@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Practice</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/904fa8d934.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/904fa8d934.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <img src="Juzo/JuzoLogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>CCG Investigator</p>
+                <h1>Hi, I'm <span>J</span>uzo <br><span>S</span>uzuya From <br> Anime</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-l">
+                    <img src="Juzo/jAE.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius iure itaque, laboriosam ad accusamus ab temporibus excepturi ipsum cupiditate laudantium sapiente architecto? Totam porro aliquam illo iure quis velit dicta?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>CCG</span><br>CCG Investigator</li>
+                            <li><span>Ghoul</span><br>Plays and kill a Ghoul</li>
+                            <li><span>Weapon</span><br>Knife Expert and Jason Quinque</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Ghoul Restaurant</span><br>He worked as Scrapper</li>
+                            <li><span>Suzuya Squad</span><br>Squadron Commander</li>
+                            <li><span>S3 Squad</span><br>Squad Leader</li>
+                            <li><span>Tokyo Security Committee</span><br>Dragon General</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Academy Junior School</span><br>At age 16 he was classmate of Kurona and Nashiro Yasuhisa</li>
+                            <li><span>2nd Academy Junior School</span><br>Appointed as Rank 3 Investigator</li>
+                            <li><span>First Class Investigator</span><br>He was named Joker</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- <-------------------------services---------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-skull-crossbones"></i>
+                <h2>Killing Ghouls</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quia perspiciatis at debitis suscipit iste omnis rerum tempora reiciendis libero, sit culpa dolorem itaque ea quisquam asperiores similique cum recusandae.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h2>Investigating Ghouls and Humans</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quia perspiciatis at debitis suscipit iste omnis rerum tempora reiciendis libero, sit culpa dolorem itaque ea quisquam asperiores similique cum recusandae.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-shield-halved"></i>
+                <h2>Security Services</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quia perspiciatis at debitis suscipit iste omnis rerum tempora reiciendis libero, sit culpa dolorem itaque ea quisquam asperiores similique cum recusandae.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------portfolio--------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>  
+        <div class="work-list">
+            <div class="work">
+                <img src="Juzo/about1.jpg">
+                <div class="layer">
+                    <h3>Scrapper</h3>
+                    <p>He was trained to perform circus acts for ghoul customers, and earned "Good Boy Points" — Big Madam's deceitful system she used to torture him. Eventually, he began working in the Ghoul Restaurant as a Scrapper named "Juuzou." </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Juzo/J3.jpg">
+                <div class="layer">
+                    <h3>Special Class Investigator</h3>
+                    <p>Juuzou Suzuya was promoted to Special Class investigator, at only 22 years old, making him one of the strongest CCG members alive. Keijin Nakarai was promoted to First Class Investigator, while all other members were promoted to Rank 1 Investigators. </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Juzo/about2.jpg">
+                <div class="layer">
+                    <h3>Dragon General</h3>
+                    <p>The Tokyo Security Committee, abbreviated as TSC, is a federal agency formed to replace the Commission of Counter Ghoul, in the aftermath of the conflict with V.  It uses the same ranking system as the CCG, though field agents are known as "Peacekeepers". </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ---------------------------contact------------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>+639000000001</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-sharp fa-solid fa-globe"></i></a>
+                    <a href=""><i class="fa-sharp fa-solid fa-comments"></i></a>
+                    <a href=""><i class="fa-sharp fa-solid fa-earth-americas"></i></a>
+                    <a href=""><i class="fa-sharp fa-solid fa-briefcase"></i></a>
+                </div>
+                <a href="Juzo/Suzuya Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">     
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><span>J</span>uzo. &copy; | All Rights Reserved | Web Design made with <i class="fa-sharp fa-solid fa-heart"></i> by I.Cañeca</p>
+    </div>
+</div>
+
+
+    <!-- <------------------JavaScript--------------------- --> 
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwWxZbLDpa-bSC2R64oeBBdBNVVuaYlXAkufV98brcRJAPuORYYvFmbjQU92twydvXG/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html> 
+<!-- ------------------------------------------------------------------END----------------------------------------------------------- -->
